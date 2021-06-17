@@ -1,0 +1,235 @@
+/* 
+    Theme Name: Labayk
+    version: 1.0v
+    Date: 17 June 2021
+*/
+
+/* Lato Font Imported Here */
+@import url(../font/lato-font.css);
+
+/* Core Default CSS */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+:root {
+    --primary-color: #26705E;
+    --second-color: #f5f5f5;
+}
+
+body {
+    background: var(--second-color) !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lato', sans-serif;
+    color: var(--primary-color) !important;
+}
+a{
+    text-decoration: none !important;
+}
+.clr {
+    clear: both;
+}
+
+/* Header Section Start */
+a.main-user {
+    display: block;
+    width: 49px;
+    height: 49px;
+}
+.nav-menu ul {
+    margin-bottom: 0 !important;
+}
+.nav-menu ul li {
+    display: inline-block;
+}
+.nav-menu ul li a {
+    display: block;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    padding: 13px 10px;
+    line-height: 22px;
+}
+.cart-num {
+    position: absolute;
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: #FFE28C;
+    line-height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    color: #1F2F4B;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    top: 10px;
+    right: 0;
+    box-shadow: 0px 10px 10px 0px rgb(0 0 0 / 50%);
+}
+a.cart-box {
+    width: 49px;
+    height: 49px;
+    display: block;
+    margin-left: 200px;
+}
+.header-main {
+    height: 81px;
+    line-height: 81px;
+    background: #fff;
+}
+
+.site-id {
+    height: 170px;
+    line-height: 170px;
+    background: var(--second-color);
+}
+/* form.search-bar {
+    width: 433px;
+    height: 33px;
+    margin: auto;
+} */
+input.search-box {
+    border: 0;
+    width: 433px;
+    height: 33px;
+    padding: 10px;
+    border-bottom: 1px solid var(--primary-color);
+    background: var(--second-color);
+    position: relative;
+}
+button.search-btn {
+    border: 0;
+    background: transparent;
+    position: absolute;
+    top: -5px;
+    right: 68px;
+}
+/* Header Section End */
+
+/* Banner Section Start */
+.banner_main {
+    background: url(../images/banner.jpg);
+    height: 1137px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: 0px;
+}
+/* Banner Section End */
+/* Footer Section Start */
+.footer-main {
+    background: #1F2F4B;
+    padding: 70px 0px;
+}
+.footer-category,
+.footer-news,
+.footer-recipe {
+    margin-top: 90px;
+}
+.footer-category h3,
+.footer-recipe h3,
+.footer-news h3 {
+    color: #fff !important;
+    font-weight: 700;
+}
+.footer-category ul,
+.footer-recipe ul,
+.footer-news ul {
+    margin-top: 25px;
+}
+.footer-category ul li a,
+.footer-recipe ul li a,
+.footer-news ul li a {
+    color: #FFE28C;
+    font-size: 18px;
+}
+.footer-category ul li,
+.footer-recipe ul li,
+.footer-news ul li {
+    margin: 5px 0px;
+}
+.company-address {
+    margin-top: 35px;
+}
+.company-contact ul {
+    margin-left: 30px;
+}
+.company-address p {
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+.company-social ul li {
+    display: inline-block;
+    margin: 0px 5px;
+}
+a.contact-tel,
+a.contact-email {
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #fff !important;
+}
+a.contact-tel::before {
+    position: absolute;
+    content: url(../images/tel-icon.svg);
+    top: -5px;
+    left: -40px;
+}
+a.contact-email::before {
+    position: absolute;
+    content: url(../images/email-icon.svg);
+    top: -5px;
+    left: -40px;
+}
+.company-contact ul li {
+    margin-top: 10px;
+}
+.company-address-last p {
+    color: #fff;
+    margin-top: 35px;
+}
+.company-social {
+    margin-top: 35px;
+}
+.company-contact {
+    margin-top: 35px;
+}
+a.latest-news-btn {
+    display: block;
+    margin-top: 30px;
+    background: #FFE28C;
+    width: 145px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #1F2F4B !important;
+    font-size: 17px !important;
+    font-weight: bold;
+}
+a.latest-recipe-btn {
+    display: block;
+    margin-top: 30px;
+    background: #FFE28C;
+    width: 160px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #1F2F4B !important;
+    font-size: 17px !important;
+    font-weight: bold;
+}
+/* Footer Section End */

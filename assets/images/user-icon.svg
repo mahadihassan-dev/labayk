@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="49px" height="49px" viewBox="0 0 49 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>6B36C9BE-8495-49C5-8515-D254BA4471E0</title>
+    <defs>
+        <circle id="path-1" cx="24.5" cy="24.5" r="24.5"></circle>
+    </defs>
+    <g id="home-+-interactions" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1-home" transform="translate(-225.000000, -13.000000)">
+            <g id="login" transform="translate(225.000000, 13.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <circle stroke="#3FB79A" stroke-width="2" cx="24.5" cy="24.5" r="23.5"></circle>
+                <g id="noun_User_1994976" mask="url(#mask-2)" fill="#26705E" fill-rule="nonzero">
+                    <g transform="translate(10.000000, 11.000000)">
+                        <path d="M22.8820375,19.0993367 C22.6407507,18.943294 22.3592493,18.9823047 22.1581769,19.1383473 C20.1474531,20.5817416 17.69437,21.4009654 15,21.4009654 C12.30563,21.4009654 9.85254692,20.542731 7.84182306,19.1383473 C7.64075067,18.9823047 7.31903485,18.9823047 7.11796247,19.0993367 C2.37265416,22.0641466 0,27.8767345 0,34.5475568 C0,39.1508144 30,39.1508144 30,34.5475568 C30,27.8767345 27.6273458,22.0641466 22.8820375,19.0993367 Z" id="Path"></path>
+                        <circle id="Oval" cx="14" cy="9" r="9"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
