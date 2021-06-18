@@ -1,0 +1,60 @@
+<!-- Menu for Mobile Versions -->
+                <div class="mobile_nav">
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Shop</a>
+                        </li>
+                        <li>
+                            <a href="#">Recipes</a>
+                        </li>
+                        <li>
+                            <a href="#">News</a>
+                        </li>
+                        <li>
+                            <a href="#">About us</a>
+                        </li>
+                        <li>
+                            <a href="#">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact us</a>
+                        </li>
+                        <li>
+                            <!-- Mobile Social Media -->
+                            <div class="mobile-nav-social">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <img src="./assets/images/social-media/facbook.svg" alt="" class="img-fluid mobileNavSocialIcon">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="./assets/images/social-media/facbook.svg" alt="" class="img-fluid mobileNavSocialIcon">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="./assets/images/social-media/facbook.svg" alt="" class="img-fluid mobileNavSocialIcon">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="./assets/images/social-media/facbook.svg" alt="" class="img-fluid mobileNavSocialIcon">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- user login -->
+                    <div class="mobileUserLogIn">
+                        <a href="#" class="MobileUserLogin">
+                            <img src="./assets/images/user-icon.svg" alt="" class="img-fluid mobileUserIcon">
+                            <span class="mobileUserAccount">Account Login</span>
+                        </a>
+                    </div>
+                </div>
