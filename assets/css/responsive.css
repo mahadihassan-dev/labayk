@@ -1,0 +1,11 @@
+/* Mobile Device Start viewport: 375px */
+@media screen and (max-width: 375px) {
+    /* Header Section */
+    .desktop-view {
+        display: none;
+    }
+    /* Banner Section Start */
+    .banner_main {
+        height: 185px;
+    }
+}
