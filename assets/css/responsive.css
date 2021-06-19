@@ -37,7 +37,7 @@
         float: right;
     }
     #mobile_nav_check {
-        display: block;
+        display: none;
     }
     .mobile_navBar {
         display: block;
@@ -106,5 +106,19 @@
     /* Banner Section Start */
     .banner_main {
         height: 185px;
+    }
+    /* Footer Section Start */
+    .footer-category, .footer-news, .footer-recipe {
+        display: none;
+    }
+    .payment-methods ul li {
+        width: 40px;
+    }
+    .footerCompanyLegalInformation {
+        height: max-content;
+    }
+    .footerPolicy ul li {
+        display: block;
+        text-align: left;
     }
 }
