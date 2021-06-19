@@ -136,7 +136,8 @@ button.search-btn {
 /* Banner Section Start */
 .banner_main {
     background: url(../images/banner.jpg);
-    height: 1137px;
+    /* height: 1137px; */
+    height: 930px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -221,6 +222,7 @@ button.search-btn {
 .footer-news h3 {
     color: #fff !important;
     font-weight: 700;
+    font-size: 25px;
 }
 .footer-category ul,
 .footer-recipe ul,
