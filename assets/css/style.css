@@ -26,7 +26,11 @@
 }
 
 body {
-    background: var(--second-color) !important;
+    background-image: url(../images/bg.png) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    /* background: var(--second-color) !important; */
 }
 
 h1,
@@ -142,6 +146,21 @@ button.search-btn {
     background-repeat: no-repeat;
     background-size: cover;
     /* background-position-y: 0px; */
+}
+.banner-content {
+    position: relative;
+}
+.banner-content::before {
+    position: absolute;
+    content: url(../images/reviews.svg);
+    top: 25px;
+    left: -30px;
+}
+.banner-content::after {
+    position: absolute;
+    content: url(../images/halal-logo.png);
+    top: 635px;
+    right: -111px;
 }
 /* Banner Section End */
 
@@ -275,6 +294,13 @@ a.recipeFullViewBtn {
 } */
 .recipiesSlider .slick-slide img {
     display: inline-block;
+}
+.recipiesSlider .ProductsSlideArrow {
+    top: 0px;
+}
+
+.recipiesSlider .ProductsSlideRightarrow {
+    right: 16px;
 }
 /* recipies Slider Section End */
 
