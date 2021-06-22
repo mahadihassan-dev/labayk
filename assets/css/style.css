@@ -270,6 +270,12 @@ a.recipeFullViewBtn {
     font-family: 'Lato', sans-serif;
     font-weight: bold;
 }
+/* .recipe-fork_knife li .slick-slide img {
+    display: inline-block;
+} */
+.recipiesSlider .slick-slide img {
+    display: inline-block;
+}
 /* recipies Slider Section End */
 
 
