@@ -205,6 +205,73 @@ button.search-btn {
 }
 /* Our Products Slider Section End */
 
+/* recipies Slider Section Start */
+.recipiesSlideImage {
+    position: relative;
+}
+.recipiesSlider_description {
+    width: 432px;
+    height: 520px;
+    background: #26705E;
+    position: absolute;
+    bottom: 42px;
+    right: 0;
+    padding: 60px;
+    z-index: 1;
+}
+
+.recipiesSlider_description h3 {
+    color: #fff !important;
+    font-size: 35px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+.recipiesSlider_description p {
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    line-height: 28px;
+    margin-top: 35px;
+}
+.recipiesSlider_description::after {
+    position: absolute;
+    content: "";
+    width: 412px;
+    height: 500px;
+    border: 1px solid #FFFFFF;
+    top: 10px;
+    left: 10px;
+    z-index: -1;
+}
+ul.recipe-fork_knife li {
+    display: inline-block;
+    margin: 5px 15px;
+}
+ul.recipe-fork_knife li:nth-last-child(2) {
+    margin-left: 0px;
+}
+ul.recipe-fork_knife li span {
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    margin-left: 5px;
+}
+a.recipeFullViewBtn {
+    display: block;
+    height: 50px;
+    width: 187px;
+    background: var(--third-color);
+    text-align: center;
+    line-height: 50px;
+    color: #1F2F4B;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+/* recipies Slider Section End */
+
 
 
 /* Footer Section Start */
