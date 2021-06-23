@@ -1,3 +1,26 @@
+/* Theme Main Responsive CSS */
+
+/*
+    >>> Mobile device
+
+    Device              :       Viewport (mn = minwidth)(mx = maxwidth)
+    I Phone 5/SE        :       mx:320px
+    Galaxy S5 / S9/S9+  :       mn:321px - mx:360px
+    I Phone 6/7/8       :       mn:361px - mx:375px
+    I Phone X/XS        :       mn:361px - mx:375px
+    I Phone 6/7/8 Plus  :       mn:375px - mx:414px
+    Universal           :       mn:360px - mx:375px
+
+*/
+
+/* 
+    >>> Tablet or Pad Device
+
+    Device              :       Viewport (mn = minwidth)(mx = maxwidth)
+    
+
+*/
+
 /* Mobile Device Start viewport: 375px */
 @media screen and (min-width: 360px) and (max-width: 375px) {
     /* Header Section */
@@ -125,8 +148,12 @@
 
 /* min-width 1024px and max-width 1440px, use when QAing large screen-only issues */
 @media only screen and (min-width: 64.063em) and (max-width: 90em) {
+    /* Root CSS Start */
+
+    /* Root CSS End */
     .banner_main {
         background: url(../images/banner.jpg);
+        -webkit-background: url(../images/banner.jpg);
         height: 700px;
         background-size: cover;
     }
@@ -136,4 +163,9 @@
         top: 450px;
         right: 0px;
     }
+}
+
+/* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+@media only screen and (min-width: 90.063em) and (max-width: 120em) {
+
 }
