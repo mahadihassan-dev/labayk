@@ -7,6 +7,9 @@
 /* Lato Font Imported Here */
 @import url(../font/lato-font.css);
 
+/* Labayk Theme Core Framework */
+@import url(./core/core.css);
+
 /* Core Default CSS */
 * {
     margin: 0;
@@ -23,6 +26,9 @@
     --third-color: #FFE28C;
     --section-title-font-color: #1F2F4B;
     --all-transitions: all linear .3s;
+    --site-container: 1640px;
+    --halal-logo: url(../images/halal-logo.png);
+    --home-banner: url(../images/banner.jpg);
 }
 
 body {
@@ -30,7 +36,7 @@ body {
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: contain;
-    background: var(--second-color) !important;
+    /* background: var(--second-color) !important; */
 }
 
 h1,
@@ -72,7 +78,7 @@ a.main-user {
 }
 .nav-menu ul li a {
     display: block;
-    font-size: 18px;
+    font-size: 17px;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     padding: 13px 10px;
@@ -103,13 +109,17 @@ a.cart-box {
     margin-left: 200px;
 }
 .header-main {
+    width: var(--site-container);
     height: 81px;
+    margin: auto;
     line-height: 81px;
     background: #fff;
 }
 
 .site-id {
+    width: var(--site-container);
     height: 170px;
+    margin: auto;
     line-height: 170px;
     background: var(--second-color);
 }
@@ -138,7 +148,7 @@ button.search-btn {
 
 /* Banner Section Start */
 .banner_main {
-    background: url(../images/banner.jpg);
+    background: var(--home-banner);
     /* height: 1137px; */
     height: 930px;
     background-position: center;
@@ -157,7 +167,8 @@ button.search-btn {
 }
 .banner-content::after {
     position: absolute;
-    content: url(../images/halal-logo.png);
+    /* content: url(../images/halal-logo.png); */
+    content: var(--halal-logo);
     top: 635px;
     right: -111px;
 }
@@ -270,12 +281,21 @@ button.search-btn {
     font-weight: 700;
     margin-left: -4px;
 }
+/* .introDelivery {
+    position: absolute;
+    top: 115%;
+    left: 365px;
+} */
+
+.introDelivery {
+    margin-top: -165px;
+}
 /* Banner Section End */
 
 /* Our Products Slider Section Start */
 .ProductSlide {
     padding: 5px;
-    background: #fff;
+    background: #f2f2f2;
     transition: var(--all-transitions);
     width: 270px;
     height: 335px;
@@ -330,6 +350,9 @@ button.search-btn {
 .ProductsSlideRightarrow {
     right: 15px;
 }
+/* .ourProductSlider-main {
+    margin-top: 545px;
+} */
 .ourProductSlider-main,
 .latestRecipies_main {
     /* background: url(../images/site-bg.png); */
@@ -353,6 +376,16 @@ button.search-btn {
 /* recipies Slider Section Start */
 .recipiesSlideImage {
     position: relative;
+}
+.recipiesSlideImage::after {
+    position: absolute;
+    content: var(--halal-logo);
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    height: 100px;
+    /* background: #f2f2f2; */
+    border-radius: 50%;
 }
 .recipiesSlider_description {
     width: 432px;
@@ -431,8 +464,64 @@ a.recipeFullViewBtn {
 /* recipies Slider Section End */
 
 /* Our Newsletter Section Start */
+.newsletter-main {
+    height: 185px;
+    background: #d7d7d7;
+}
 .newsletter-section-title h3 {
-    font-size: 35px;
+    font-size: 26px;
+    color: #1F2F4B;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.NewsletterInputField {
+    width: 282px;
+    height: 50px;
+    line-height: 50px;
+    padding: 15px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #656565;
+    border: 1px solid #213135;
+}
+.newsletterSignUp-btn {
+    background-color: #FFE28C;
+    width: 131px;
+    height: 50px;
+    border: 0;
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #1F2F4B;
+    line-height: 50px;
+}
+.newsletterName {
+    margin-left: 70px;
+}
+.newsletterEmail {
+    margin-left: 80px;
+}
+.newsletterSignUp-btn {
+    margin-left: 95px;
+}
+.newsletterTermsCondition p {
+    margin-left: 70px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #656565;
+}
+
+.newsletterTermsCondition p a {
+    color: #656565;
+    font-weight: bold;
+    border-bottom: dotted;
+}
+.newsform {
+    margin-top: 40px;
 }
 /* Our Newsletter Section End */
 

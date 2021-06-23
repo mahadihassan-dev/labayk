@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Labayk</title>
-    <link rel="shortcut icon" href="./assets/images/cart.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
     <!-- Theme Core Style CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
@@ -398,20 +398,31 @@
         <div class="container">
             <div class="row">
                 <!-- Section Title -->
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="newsletter-section-title">
-                        <h3 class="section-title">Join our mailing list</h3>
+                        <h3 class="newsLetterTitle">Join our mailing list</h3>
                     </div>
                 </div>
                 <!-- Newsletter Form -->
-                <div class="col-md-8">
-                    <form action="" class="newsletterForm">
+                <div class="col-md-9 newsform">
+                    <!-- Newsletter Subscribe Form -->
+                    <form action="" class="newsletterForm" method="post">
                         <div class="row">
-                            <div class="col-md-4 py-5 bg-info"></div>
-                            <div class="col-md-4 py-5 bg-danger"></div>
-                            <div class="col-md-4 py-5 bg-info"></div>
+                            <div class="col-md-4">
+                                <input type="text" name="Name" id="NewsUserName" placeholder="Your Name" class="NewsletterInputField newsletterName">
+                            </div>
+                            <div class="col-md-4">
+                                <input type="email" name="Email" id="NewsUserEmail" placeholder="Your email address" class="NewsletterInputField newsletterEmail">
+                            </div>
+                            <div class="col-md-4">
+                                <button class="newsletterSignUp-btn">Sign Up</button>
+                            </div>
                         </div>
                     </form>
+                    <!-- terms condition -->
+                    <div class="newsletterTermsCondition">
+                        <p>Of course, we won’t share or sell your data, who does that? <a href="#">Terms and conditions</a> .</p>
+                    </div>
                 </div>
             </div>
         </div>

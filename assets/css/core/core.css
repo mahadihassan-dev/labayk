@@ -1,0 +1,5 @@
+/* Labayk Theme Core Framework */
+.labayk-container {
+    width: var(--site-container);
+    margin: auto !important;
+}
