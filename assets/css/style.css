@@ -26,10 +26,10 @@
 }
 
 body {
-    background-image: url(../images/bg.png) !important;
+    background: url(../images/bg.png) !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
-    background-size: cover;
+    background-size: contain;
     /* background: var(--second-color) !important; */
 }
 
@@ -221,6 +221,22 @@ button.search-btn {
 }
 .ProductsSlideRightarrow {
     right: 15px;
+}
+.ourProductSlider-main {
+    background: url(../images/site-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.ourProductSlider-main::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #ffffff6e;
+    top: 0;
+    left: 0;
 }
 /* Our Products Slider Section End */
 

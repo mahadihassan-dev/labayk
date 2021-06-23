@@ -10,12 +10,21 @@ $('.ProductSlider').slick({
     prevArrow: '<img src="./assets/images/arrows/slide-left-arrow.svg" alt="" class="img-fluid ProductsSlideArrow ProductsSlideLeftarrow">',
     responsive: [
       {
+        breakpoint: 1440,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 4,
+          infinite: true,
+          dots: false
+        }
+      },
+      {
         breakpoint: 1920,
         settings: {
-          slidesToShow: 7,
-          slidesToScroll: 7,
+          slidesToShow: 4,
+          slidesToScroll: 4,
           infinite: true,
-          dots: true
+          dots: false
         }
       },
       {
@@ -46,12 +55,21 @@ $('.ProductSlider').slick({
     prevArrow: '<img src="./assets/images/arrows/slide-left-arrow.svg" alt="" class="img-fluid ProductsSlideArrow ProductsSlideLeftarrow">',
     responsive: [
       {
+        breakpoint: 1440,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false
+        }
+      },
+      {
         breakpoint: 1920,
         settings: {
-          slidesToShow: 7,
-          slidesToScroll: 7,
+          slidesToShow: 1,
+          slidesToScroll: 1,
           infinite: true,
-          dots: true
+          dots: false
         }
       },
       {
