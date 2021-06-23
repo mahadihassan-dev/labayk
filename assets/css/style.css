@@ -40,7 +40,6 @@ h4,
 h5,
 h6 {
     font-family: 'Lato', sans-serif;
-    color: var(--primary-color) !important;
 }
 a{
     text-decoration: none !important;
@@ -222,13 +221,15 @@ button.search-btn {
 .ProductsSlideRightarrow {
     right: 15px;
 }
-.ourProductSlider-main {
+.ourProductSlider-main,
+.latestRecipies_main {
     background: url(../images/site-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
+.latestRecipies_main::before,
 .ourProductSlider-main::before {
     position: absolute;
     content: '';
