@@ -166,10 +166,11 @@ button.search-btn {
     height: 657px;
     background: #26705E;
     padding: 60px;
-    position: absolute;
-    top: 955px;
-    left: 295px;
+    /* position: absolute; */
+    /* top: 955px;
+    left: 295px; */
     z-index: 1;
+    position: relative;
 }
 .bnr-halalcertification h2 {
     font-size: 35px;
@@ -213,10 +214,13 @@ button.search-btn {
     height: 360px;
     background: #1F2F4B;
     padding: 80px;
-    position: absolute;
-    top: 1230px;
-    right: 420px;
+    /* position: absolute; */
+    /* top: 1230px;
+    right: 420px; */
     z-index: 1;
+    position: relative;
+    margin-left: 60px;
+    margin-top: 250px;
 }
 .bnr-productdeliver::before {
     position: absolute;
