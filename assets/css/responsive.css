@@ -130,4 +130,10 @@
         height: 700px;
         background-size: cover;
     }
+    .banner-content::after {
+        position: absolute;
+        content: url(../images/halal-logo.png);
+        top: 450px;
+        right: 0px;
+    }
 }
