@@ -26,11 +26,11 @@
 }
 
 body {
-    background: url(../images/bg.png) !important;
+    /* background: url(../images/bg.png) !important; */
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: contain;
-    /* background: var(--second-color) !important; */
+    background: var(--second-color) !important;
 }
 
 h1,
@@ -161,6 +161,111 @@ button.search-btn {
     top: 635px;
     right: -111px;
 }
+.bnr-halalcertification {
+    width: 581px;
+    height: 657px;
+    background: #26705E;
+    padding: 60px;
+    position: absolute;
+    top: 955px;
+    left: 295px;
+    z-index: 1;
+}
+.bnr-halalcertification h2 {
+    font-size: 35px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+.bnr-halalcertification p {
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 48px;
+}
+.bnr-hala-crt-btn {
+    display: block;
+    width: 145px;
+    height: 50px;
+    background: #FFE28C;
+    text-align: center;
+    line-height: 50px;
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #1F2F4B;
+    margin-top: 38px;
+    z-index: 1;
+}
+.bnr-halalcertification::before {
+    position: absolute;
+    content: '';
+    width: 560px;
+    height: 635px;
+    border: 1px solid white;
+    top: 10px;
+    left: 10px;
+    z-index: -1;
+}
+.bnr-productdeliver {
+    width: 510px;
+    height: 360px;
+    background: #1F2F4B;
+    padding: 80px;
+    position: absolute;
+    top: 1230px;
+    right: 420px;
+    z-index: 1;
+}
+.bnr-productdeliver::before {
+    position: absolute;
+    content: '';
+    width: 490px;
+    height: 340px;
+    top: 10px;
+    left: 10px;
+    border: 1px solid #fff;
+    z-index: -1;
+}
+.bnr-productdeliver h2 {
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+.bnr-productdeliver p {
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    font-weight: 400;
+}
+.post-codeBox {
+    width: 179px;
+    height: 50px;
+    padding: 10px;
+}
+.post-codeBox {
+    width: 179px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #FFE28C;
+    background: transparent;
+    color: #fff;
+    font-size: 18px;
+    line-height: 50px;
+}
+.postCodeBtn {
+    width: 90px;
+    height: 50px;
+    border: 0;
+    background: #FFE28C;
+    color: #1F2F4B;
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    margin-left: -4px;
+}
 /* Banner Section End */
 
 /* Our Products Slider Section Start */
@@ -223,7 +328,7 @@ button.search-btn {
 }
 .ourProductSlider-main,
 .latestRecipies_main {
-    background: url(../images/site-bg.png);
+    /* background: url(../images/site-bg.png); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -321,7 +426,11 @@ a.recipeFullViewBtn {
 }
 /* recipies Slider Section End */
 
-
+/* Our Newsletter Section Start */
+.newsletter-section-title h3 {
+    font-size: 35px;
+}
+/* Our Newsletter Section End */
 
 /* Footer Section Start */
 .footer-main {
