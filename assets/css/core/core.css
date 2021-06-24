@@ -3,3 +3,107 @@
     width: var(--site-container);
     margin: auto !important;
 }
+
+.labayk-row {
+    display: -ms-flexbox;
+    display: -webkit-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.labayk-col,
+.labayk-col-1, 
+.labayk-col-2, 
+.labayk-col-3, 
+.labayk-col-4, 
+.labayk-col-5, 
+.labayk-col-6, 
+.labayk-col-7, 
+.labayk-col-8, 
+.labayk-col-9, 
+.labayk-col-10, 
+.labayk-col-11, 
+.labayk-col-12, 
+.labayk-col-auto, 
+.labayk-col-sm,
+.labayk-col-sm-1, 
+.labayk-col-sm-2, 
+.labayk-col-sm-3, 
+.labayk-col-sm-4, 
+.labayk-col-sm-5, 
+.labayk-col-sm-6, 
+.labayk-col-sm-7, 
+.labayk-col-sm-8, 
+.labayk-col-sm-9, 
+.labayk-col-sm-10, 
+.labayk-col-sm-11, 
+.labayk-col-sm-12, 
+.labayk-col-sm-auto, 
+.labayk-col-md,
+.labayk-col-md-1, 
+.labayk-col-md-2, 
+.labayk-col-md-3, 
+.labayk-col-md-4, 
+.labayk-col-md-5, 
+.labayk-col-md-6, 
+.labayk-col-md-7, 
+.labayk-col-md-8, 
+.labayk-col-md-9, 
+.labayk-col-md-10,
+.labayk-col-md-11, 
+.labayk-col-md-12, 
+.labayk-col-md-auto, 
+.labayk-col-lg,
+.labayk-col-lg-1, 
+.labayk-col-lg-2, 
+.labayk-col-lg-3, 
+.labayk-col-lg-4, 
+.labayk-col-lg-5, 
+.labayk-col-lg-6, 
+.labayk-col-lg-7, 
+.labayk-col-lg-8, 
+.labayk-col-lg-9, 
+.labayk-col-lg-10,
+.labayk-col-lg-11, 
+.labayk-col-lg-12, 
+.labayk-col-lg-auto, 
+.labayk-col-xl,
+.labayk-col-xl-1, 
+.labayk-col-xl-2, 
+.labayk-col-xl-3, 
+.labayk-col-xl-4, 
+.labayk-col-xl-5, 
+.labayk-col-xl-6, 
+.labayk-col-xl-7, 
+.labayk-col-xl-8, 
+.labayk-col-xl-9, 
+.labayk-col-xl-10, 
+.labayk-col-xl-11, 
+.labayk-col-xl-12, 
+.labayk-col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.labayk-col-lg,
+.labayk-col-lg-1, 
+.labayk-col-lg-2, 
+.labayk-col-lg-3, 
+.labayk-col-lg-4, 
+.labayk-col-lg-5, 
+.labayk-col-lg-6, 
+.labayk-col-lg-7, 
+.labayk-col-lg-8, 
+.labayk-col-lg-9, 
+.labayk-col-lg-10,
+.labayk-col-lg-11, 
+.labayk-col-lg-12, 
+.labayk-col-lg-auto {
+    width: 33.33%;
+}
