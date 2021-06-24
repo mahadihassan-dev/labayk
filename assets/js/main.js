@@ -4,8 +4,10 @@ $('.ProductSlider').slick({
     dots: false,
     infinite: true,
     speed: 300,
-    slidesToShow: 6,
-    slidesToScroll: 6,
+    slidesToShow: 4,
+    slidesToScroll: 4,
+    centerMode: true,
+    focusOnSelect: true,
     nextArrow: '<img src="./assets/images/arrows/slide-right-arrow.svg" alt="" class="img-fluid ProductsSlideArrow ProductsSlideRightarrow">',
     prevArrow: '<img src="./assets/images/arrows/slide-left-arrow.svg" alt="" class="img-fluid ProductsSlideArrow ProductsSlideLeftarrow">',
     responsive: [
@@ -88,4 +90,5 @@ $('.ProductSlider').slick({
       }
     ]
   });
+
 });

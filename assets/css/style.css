@@ -66,6 +66,15 @@ a{
     margin-top: 9px;
 }
 
+.latestRecipies_title {
+    font-family: 'Lato', sans-serif;
+    color: var(--section-title-font-color) !important;
+    font-weight: bold;
+    font-size: 45px;
+    margin-left: 226px;
+    margin-top: 33px;
+}
+
 /* Header Section Start */
 .mobile_nav {
     display: none;
@@ -146,17 +155,25 @@ input.search-box {
     border: 0;
     width: 433px;
     height: 33px;
-    padding: 10px;
+    padding: 0px;
     border-bottom: 1px solid var(--primary-color);
     background: var(--second-color);
     position: relative;
+    margin-left: 148px;
+    display: block;
+    margin-top: 86px;
+}
+.search-bar input[type="text"]::placeholder {
+    font-size: 18px;
+    color: var(--primary-color);
+    margin-top: -1px;
 }
 button.search-btn {
     border: 0;
     background: transparent;
     position: absolute;
-    top: -5px;
-    right: 68px;
+    top: 11px;
+    right: 240px;
 }
 /* Header Section End */
 
@@ -315,13 +332,13 @@ button.search-btn {
 
 /* Our Products Slider Section Start */
 .ProductSlide {
-    padding: 5px;
+    padding: 0px;
     background: #f2f2f2;
     transition: var(--all-transitions);
-    width: 290px;
-    height: 355px;
-    margin-left: 70px;
-    margin-top: -2px;
+    width: 282px;
+    height: 370px;
+    margin-left: 0px;
+    margin-top: 0px;
 }
 .ProductSlide:hover {
     background: var(--third-color);
@@ -373,6 +390,9 @@ button.search-btn {
 .ProductsSlideRightarrow {
     right: 242px;
 }
+.ProductSlider .slick-list .slick-slide {
+    width: 282px !important;
+}
 /* .ourProductSlider-main {
     margin-top: 545px;
 } */
@@ -402,13 +422,16 @@ button.search-btn {
 }
 .recipiesSlideImage::after {
     position: absolute;
-    content: var(--halal-logo);
-    top: 10px;
-    left: 10px;
-    width: 100px;
-    height: 100px;
-    /* background: #f2f2f2; */
+    content: '';
+    top: 17px;
+    left: 245px;
+    width: 131px;
+    height: 131px;
+    background: var(--halal-logo);
     border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .recipiesSlider_description {
     width: 432px;
@@ -416,8 +439,8 @@ button.search-btn {
     background: #26705E;
     position: absolute;
     bottom: 42px;
-    right: 0;
-    padding: 60px;
+    right: 225px;
+    padding: 56px;
     z-index: 1;
 }
 
@@ -426,6 +449,7 @@ button.search-btn {
     font-size: 35px;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
+    margin-left: 18px;
 }
 .recipiesSlider_description p {
     font-size: 18px;
@@ -433,7 +457,16 @@ button.search-btn {
     font-weight: 400;
     color: #fff;
     line-height: 28px;
-    margin-top: 35px;
+    margin-top: 30px;
+    margin-left: 17px;
+}
+ul.recipe-fork_knife li img {
+    margin-left: 17px !important;
+    margin-top: 10px !important;
+}
+ul.recipe-fork_knife li:nth-last-child(1) img {
+    margin-left: -3px !important;
+    margin-top: 10px !important;
 }
 .recipiesSlider_description::after {
     position: absolute;
@@ -470,19 +503,22 @@ a.recipeFullViewBtn {
     font-size: 15px;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
+    margin-left: 17px;
+    margin-top: 26px !important;
 }
 /* .recipe-fork_knife li .slick-slide img {
     display: inline-block;
 } */
 .recipiesSlider .slick-slide img {
     display: inline-block;
+    margin-left: 225px;
+    margin-top: -5px;
 }
 .recipiesSlider .ProductsSlideArrow {
-    top: 0px;
+    top: -4px;
 }
-
 .recipiesSlider .ProductsSlideRightarrow {
-    right: 16px;
+    right: 241px;
 }
 /* recipies Slider Section End */
 
@@ -490,13 +526,15 @@ a.recipeFullViewBtn {
 .newsletter-main {
     height: 185px;
     background: #d7d7d7;
+    margin-top: 100px !important;
 }
 .newsletter-section-title h3 {
-    font-size: 26px;
+    font-size: 35px;
     color: #1F2F4B;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
-    margin-top: 50px;
+    margin-top: 47px;
+    margin-left: 228px;
 }
 .NewsletterInputField {
     width: 282px;
@@ -521,27 +559,27 @@ a.recipeFullViewBtn {
     line-height: 50px;
 }
 .newsletterName {
-    margin-left: 70px;
+    margin-left: -16px;
 }
 .newsletterEmail {
-    margin-left: 80px;
+    margin-left: -37px;
 }
 .newsletterSignUp-btn {
-    margin-left: 95px;
+    margin-left: -60px;
 }
 .newsletterTermsCondition p {
-    margin-left: 70px;
-    margin-top: 20px;
+    margin-left: -16px;
+    margin-top: 30px;
     font-size: 16px;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     color: #656565;
 }
-
 .newsletterTermsCondition p a {
     color: #656565;
     font-weight: bold;
     border-bottom: dotted;
+    margin-left: 5px;
 }
 .newsform {
     margin-top: 40px;
