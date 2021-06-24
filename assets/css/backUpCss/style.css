@@ -10,9 +10,6 @@
 /* Labayk Theme Core Framework */
 @import url(./core/core.css);
 
-/* Lato Font */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
-
 /* Core Default CSS */
 * {
     margin: 0;
@@ -72,19 +69,16 @@ a.main-user {
     display: block;
     width: 49px;
     height: 49px;
-    margin-left: 225px;
-    margin-top: -5px;
 }
 .nav-menu ul {
     margin-bottom: 0 !important;
-    margin-left: 5px;
 }
 .nav-menu ul li {
     display: inline-block;
 }
 .nav-menu ul li a {
     display: block;
-    font-size: 19px;
+    font-size: 17px;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     padding: 13px 10px;
@@ -105,15 +99,14 @@ a.main-user {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     top: 10px;
-    right: 223px;
+    right: 0;
     box-shadow: 0px 10px 10px 0px rgb(0 0 0 / 50%);
 }
 a.cart-box {
     width: 49px;
     height: 49px;
     display: block;
-    margin-left: 113px;
-    margin-top: -5px;
+    margin-left: 200px;
 }
 .header-main {
     width: var(--site-container);
@@ -129,11 +122,6 @@ a.cart-box {
     margin: auto;
     line-height: 170px;
     background: var(--second-color);
-}
-a.site-header-logo {
-    display: block;
-    margin-left: 225px;
-    margin-top: -2px;
 }
 /* form.search-bar {
     width: 433px;
@@ -162,7 +150,7 @@ button.search-btn {
 .banner_main {
     background: var(--home-banner);
     /* height: 1137px; */
-    height: 800px;
+    height: 930px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -174,14 +162,15 @@ button.search-btn {
 .banner-content::before {
     position: absolute;
     content: url(../images/reviews.svg);
-    top: 22px;
-    left: 216px;
+    top: 25px;
+    left: -30px;
 }
 .banner-content::after {
     position: absolute;
+    /* content: url(../images/halal-logo.png); */
     content: var(--halal-logo);
-    top: 530px;
-    right: 222px;
+    top: 635px;
+    right: -111px;
 }
 .bnr-halalcertification {
     width: 581px;
