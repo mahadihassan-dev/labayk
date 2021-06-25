@@ -591,22 +591,53 @@ a.recipeFullViewBtn {
     background: #1F2F4B;
     padding-top: 70px;
 }
+
+.footer-company-info {
+    margin-top: 11px;
+    margin-left: -35px;
+}
+.footer-contact {
+    margin-left: 11px;
+    margin-top: -1px;
+}
 .footer-category,
 .footer-news,
 .footer-recipe {
     margin-top: 90px;
 }
-.footer-category h3,
-.footer-recipe h3,
+
 .footer-news h3 {
     color: #fff !important;
     font-weight: 700;
     font-size: 25px;
 }
+
+.footer-recipe h3 {
+    color: #fff !important;
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: 19px;
+}
+
+.footer-category h3{
+    color: #fff !important;
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: -17px;
+}
 .footer-category ul,
-.footer-recipe ul,
 .footer-news ul {
     margin-top: 25px;
+}
+
+.footer-recipe ul {
+    margin-top: 26px;
+    margin-left: 18px;
+}
+
+.footer-category ul {
+    margin-top: 23px;
+    margin-left: -16px;
 }
 .footer-category ul li a,
 .footer-recipe ul li a,
@@ -614,10 +645,18 @@ a.recipeFullViewBtn {
     color: #FFE28C;
     font-size: 18px;
 }
-.footer-category ul li,
-.footer-recipe ul li,
+
 .footer-news ul li {
     margin: 5px 0px;
+}
+
+.footer-recipe ul li {
+    margin-top: 8px;
+    margin-left: -1px;
+}
+
+.footer-category ul li {
+    margin: 8px 0px;
 }
 .company-address {
     margin-top: 35px;
@@ -629,6 +668,9 @@ a.recipeFullViewBtn {
     color: #fff;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
+    margin-left: -10px;
+    font-size: 18px;
+    margin-top: -4px;
 }
 .company-social ul li {
     display: inline-block;
@@ -658,24 +700,27 @@ a.contact-email::before {
 }
 .company-address-last p {
     color: #fff;
-    margin-top: 35px;
+    margin-top: 34px;
+    margin-left: -10px;
+    font-size: 14px;
 }
 .company-social {
-    margin-top: 35px;
+    margin-top: 30px;
+    margin-left: -16px;
 }
 .company-contact {
-    margin-top: 35px;
+    margin-top: 32px;
 }
 a.latest-news-btn {
     display: block;
-    margin-top: 30px;
+    margin-top: 47px;
     background: #FFE28C;
     width: 145px;
     height: 50px;
     line-height: 50px;
     text-align: center;
     color: #1F2F4B !important;
-    font-size: 17px !important;
+    font-size: 15px !important;
     font-weight: bold;
 }
 a.latest-recipe-btn {
@@ -694,7 +739,7 @@ a.latest-recipe-btn {
     background: #fff;
     height: 50px;
     line-height: 50px;
-    margin-top: 60px;
+    margin-top: 54px;
 }
 .payment-methods ul {
     margin: 0;
@@ -706,6 +751,39 @@ a.latest-recipe-btn {
     height: 20px;
     margin: 0px 2px;
 }
+
+.applePay {
+    width: 33px;
+    margin-top: -7px;
+    margin-left: -63px;
+}
+
+.gPay {
+    width: 51px;
+    height: 20px;
+    margin-left: -57px;
+    margin-top: -9px;
+}
+
+.paypalPay {
+    margin-left: -42px;
+    margin-top: -5px;
+}
+
+.masterPay {
+    width: 26px;
+    height: 20px;
+    margin-left: 19px;
+    margin-top: -8px;
+}
+
+.mastetroPay {
+    width: 33px;
+    height: 20px;
+    margin-top: -9px;
+    margin-left: -47px;
+}
+
 .footerCompanyLegalInformation {
     background: var(--primary-color);
     height: 50px;

@@ -15,7 +15,13 @@
     margin-left: -15px;
 }
 
-.labayk-col,
+.labayk-col {
+    position: relative;
+    width: 25%;
+    padding-right: 0px;
+    padding-left: 10px;
+    margin-top: -31px;
+}
 .labayk-col-1, 
 .labayk-col-2, 
 .labayk-col-3, 
