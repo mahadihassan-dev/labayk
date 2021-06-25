@@ -31,7 +31,9 @@
     --all-transitions: all linear .3s;
     --site-container: 1640px;
     --halal-logo: url(../images/halal-logo.png);
+    --review-rate: url(../images/reviews.svg);
     --home-banner: url(../images/banner.jpg);
+    --about-banner: url(../images/about-banner.jpg);
 }
 
 body {

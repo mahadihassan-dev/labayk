@@ -1,0 +1,27 @@
+/* Main Style CSS Import Here */
+@import url(./style.css);
+
+/* Banner CSS Start */
+.aboutBanner {
+    height: 800px;
+    background: var(--about-banner);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.aboutBanner::before {
+    position: absolute;
+    content: var(--review-rate);
+    top: 21px;
+    left: 216px;
+}
+
+.aboutBanner::after {
+    position: absolute;
+    content: var(--halal-logo);
+    bottom: 94px;
+    right: 222px;
+}
+/* Banner CSS End */
