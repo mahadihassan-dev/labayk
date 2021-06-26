@@ -113,3 +113,14 @@
 .labayk-col-lg-auto {
     width: 33.33%;
 }
+
+.labaykAboutVideo-Col,
+.labaykAboutDetail-Col {
+    float: left;
+    width: 50%;
+}
+
+.whatisHalal-col {
+    float: left;
+    width: 50%;
+}
