@@ -1,7 +1,11 @@
 /* min-width 1024px and max-width 1440px, use when QAing large screen-only issues */
 @media only screen and (min-width: 64.063em) and (max-width: 90em) {
     /* Root CSS Start */
-
+    :root {
+        --site-container: 1000px;
+    }
+    /* File Import */
+    @import url(../style.css);
     /* Root CSS End */
     .banner_main {
         background: url(../images/banner.jpg);
@@ -15,5 +19,16 @@
         top: 450px;
         right: 0px;
     }
+
+    /* about Page Start */
+    .aboutBanner {
+        height: 488px;
+        background: var(--about-banner);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+    }
+    /* about Page End */
 
 }

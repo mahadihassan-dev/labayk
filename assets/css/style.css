@@ -7,8 +7,6 @@
 /* Lato Font Imported Here */
 @import url(../font/lato-font.css);
 
-/* Labayk Theme Core Framework */
-@import url(./core/core.css);
 
 /* Lato Font */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
@@ -55,6 +53,7 @@ p,
 a {
     font-family: 'Lato', sans-serif;
 }
+
 a{
     text-decoration: none !important;
 }
@@ -71,14 +70,42 @@ a{
     margin-top: 9px;
 }
 
-.latestRecipies_title {
-    font-family: 'Lato', sans-serif;
-    color: var(--section-title-font-color) !important;
-    font-weight: bold;
-    font-size: 45px;
-    margin-left: 226px;
-    margin-top: 33px;
+/* Labayk Theme Core Framework */
+.labayk-container {
+    width: var(--site-container);
+    margin: auto !important;
 }
+
+.labayk-row {
+    display: -ms-flexbox;
+    display: -webkit-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.labayk-col {
+    position: relative;
+    width: 25%;
+    padding-right: 0px;
+    padding-left: 10px;
+    margin-top: -31px;
+}
+
+.labaykAboutVideo-Col,
+.labaykAboutDetail-Col {
+    float: left;
+    width: 50%;
+}
+
+/*====================================
+
+>>>>>>>>> Home Page Start <<<<<<<<
+
+======================================*/
 
 /* Header Section Start */
 .mobile_nav {
@@ -422,6 +449,16 @@ button.search-btn {
 /* Our Products Slider Section End */
 
 /* recipies Slider Section Start */
+
+.latestRecipies_title {
+    font-family: 'Lato', sans-serif;
+    color: var(--section-title-font-color) !important;
+    font-weight: bold;
+    font-size: 45px;
+    margin-left: 226px;
+    margin-top: 33px;
+}
+
 .recipiesSlideImage {
     position: relative;
 }
@@ -809,3 +846,131 @@ a.latest-recipe-btn {
     margin: 0px 15px;
 }
 /* Footer Section End */
+
+
+
+/*====================================
+
+>>>>>>>>> Home Page End <<<<<<<<
+
+======================================*/
+
+
+/*=======================================================*/
+
+
+/*====================================
+
+>>>>>>>>> About Page Start <<<<<<<<
+
+======================================*/
+
+/* Banner CSS Start */
+.aboutBanner {
+    height: 800px;
+    background: var(--about-banner);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.aboutBanner::before {
+    position: absolute;
+    content: var(--review-rate);
+    top: 21px;
+    left: 216px;
+}
+
+.aboutBanner::after {
+    position: absolute;
+    content: var(--halal-logo);
+    bottom: 94px;
+    right: 222px;
+}
+/* Banner CSS End */
+
+/* About Details Section Start */
+.labaykAboutDetail {
+    margin-top: 75px;
+    margin-left: 225px;
+}
+.labaykAboutDetail h2 {
+    font-size: 46px;
+    margin-left: -1px;
+}
+.labaykAboutDetail p {
+    margin-top: 23px;
+    font-size: 18px;
+}
+.aboutNote {
+    font-size: 14px;
+    margin-top: 32px;
+    display: block;
+}
+a.aboutVideoPlayback {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 585px;
+    height: 405px;
+    line-height: 408px;
+    background: var(--about-videoPlay-bg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 154px;
+    margin-left: 9px;
+}
+.aboutVideoPlayback img {
+    margin-top: 8px;
+    margin-left: 21px;
+}
+/* About Details Section End */
+
+/* What is Halal Section Start */
+.whatisHalal-col {
+    float: left;
+    width: 50%;
+}
+.whatIsHalal-main {
+    background: #1F2F4B;
+    margin-top: 74px;
+    height: 600px;
+}
+.whatisHalalWomen_image img {
+    margin-left: 225px;
+    margin-top: 44px;
+}
+.whatisHalaldetails h2 {
+    margin-top: 104px;
+    color: #fff;
+    font-size: 34px;
+    margin-left: 10px;
+}
+.whatisHalaldetails p {
+    margin-left: 11px;
+    margin-top: 27px;
+    font-size: 18px;
+    color: #fff;
+}
+a.whatIsHalal-btn {
+    display: block;
+    width: 146px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #FFE28C;
+    color: #1F2F4B;
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 11px;
+    margin-top: 50px;
+}
+/* What is Halal Section End */
+
+/*====================================
+
+>>>>>>>>> About Page End <<<<<<<<
+
+======================================*/
