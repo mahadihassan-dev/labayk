@@ -12,6 +12,13 @@ $('.ProductSlider').slick({
     prevArrow: '<img src="./assets/images/arrows/slide-left-arrow.svg" alt="" class="img-fluid ProductsSlideArrow ProductsSlideLeftarrow">',
     responsive: [
       {
+        breakpoint: 375,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      },
+      {
         breakpoint: 1440,
         settings: {
           slidesToShow: 4,
@@ -35,14 +42,8 @@ $('.ProductSlider').slick({
           slidesToShow: 2,
           slidesToScroll: 2
         }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
       }
+      
     ]
   });
 
@@ -82,7 +83,7 @@ $('.ProductSlider').slick({
         }
       },
       {
-        breakpoint: 480,
+        breakpoint: 375,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1

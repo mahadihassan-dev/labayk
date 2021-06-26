@@ -85,6 +85,21 @@
     :root {
         --site-container: 465px;
     }
+    .section-title {
+        font-family: 'Lato', sans-serif;
+        color: var(--section-title-font-color) !important;
+        font-weight: bold;
+        font-size: 45px;
+        margin-left: 20px;
+        margin-top: 9px;
+    }
+    .labayk-col {
+        position: relative;
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 55px;
+        margin-top: -31px;
+    }
     /* Root End */
     /* Header Section */
     .desktop-view {
@@ -99,6 +114,9 @@
     }
     .mobile_nav_site-logo img {
         width: 145px;
+    }
+    .mobile_nav .row {
+        margin-right: 0;
     }
     .mobile_nav_menu ul {
         margin: 0;
@@ -146,7 +164,7 @@
         position: absolute;
         width: 100%;
         margin: auto;
-        left: 100%;
+        left: 0;
         top: 80px;
         background: #26705E;
         z-index: 999;
@@ -192,6 +210,132 @@
     /* Banner Section Start */
     .banner_main {
         height: 185px;
+    }
+    .banner-content::before {
+        position: absolute;
+        content: url(../images/reviews.svg);
+        top: 0px;
+        left: 1px;
+        display: none;
+    }
+    .banner-content::after {
+        position: absolute;
+        content: var(--halal-logo);
+        top: 8px;
+        right: 0px;
+    }
+    .bnr-halalcertification {
+        width: 430px;
+        height: 657px;
+        background: #26705E;
+        padding: 60px;
+        /* position: absolute; */
+        z-index: 1;
+        position: relative;
+        margin-left: 17px;
+        margin-top: 190px;
+    }
+    .bnr-halalcertification::before {
+        position: absolute;
+        content: '';
+        width: 408px;
+        height: 635px;
+        border: 1px solid white;
+        top: 10px;
+        left: 10px;
+        z-index: -1;
+    }
+    .bnr-halalcertification h2 {
+        font-size: 25px;
+        color: #fff;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        margin-left: -15px;
+        margin-top: -10px;
+    }
+    .bnr-halalcertification p {
+        font-size: 18px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        color: #fff;
+        margin-top: 15px;
+        margin-left: -16px;
+        line-height: 28px;
+    }
+    .bnr-hala-crt-btn {
+        display: block;
+        width: 345px;
+        height: 50px;
+        background: #FFE28C;
+        text-align: center;
+        line-height: 50px;
+        font-size: 15px;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        color: #1F2F4B;
+        margin-top: 22px;
+        z-index: 1;
+        margin-left: -18px;
+    }
+    .bnr-productdeliver {
+        width: 432px;
+        height: 360px;
+        background: #1F2F4B;
+        padding: 55px;
+        /* position: absolute; */
+        z-index: 1;
+        position: relative;
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+    .bnr-productdeliver::before {
+        position: absolute;
+        content: '';
+        width: 412px;
+        height: 340px;
+        top: 10px;
+        left: 10px;
+        border: 1px solid #fff;
+        z-index: -1;
+    }
+    .bnr-productdeliver h2 {
+        color: #fff;
+        font-size: 30px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        margin-left: 21px;
+    }
+    .bnr-productdeliver p {
+        font-size: 18px;
+        font-family: 'Lato', sans-serif;
+        color: #fff;
+        font-weight: 400;
+        margin-left: 22px;
+        margin-top: 18px;
+    }
+    .latestRecipies_title {
+        font-family: 'Lato', sans-serif;
+        color: var(--section-title-font-color) !important;
+        font-weight: bold;
+        font-size: 40px;
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+    .ProductsSlideArrow {
+        position: absolute;
+        top: 300px;
+        z-index: 99;
+        width: 80px;
+        transition: var(--all-transitions);
+    }
+    .ProductsSlideLeftarrow {
+        right: 379px;
+    }
+    .ProductsSlideRightarrow {
+        right: 8px;
+    }
+    .newsletter-main {
+        display: none;
     }
     /* Footer Section Start */
     .footer-category, .footer-news, .footer-recipe {
