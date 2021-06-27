@@ -78,7 +78,7 @@
         line-height: 40px;
     }
     .mobile_navBar {
-        display: block;
+        display: none;
         position: absolute;
         width: 100%;
         margin: auto;
