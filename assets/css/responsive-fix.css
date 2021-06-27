@@ -268,7 +268,10 @@
         display: block;
         text-align: left;
     }
-
+    .footerCompanyLegalInformation .containerDisbale .row,
+    .footerPaymentMethods .containerDisbale .row {
+        margin-right: 0;
+    }
     /* About Page Start */
     .aboutBanner {
         height: 227px;
