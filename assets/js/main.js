@@ -1,5 +1,11 @@
 $( document ).ready(function() {
-    // Our Products Slider
+  // Mobile Navigation Bar
+  $('#MobileNav').click(function(){
+    $('.mobile_navBar').toggle(
+      300
+    );
+  });
+  // Our Products Slider
 $('.ProductSlider').slick({
     dots: false,
     infinite: true,
