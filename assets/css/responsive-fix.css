@@ -87,7 +87,7 @@
         background: #26705E;
         z-index: 999;
         padding: 10px 0px;
-        transition: var(--all-transitions);
+        /* transition: var(--all-transitions); */
     }
     #mobile_nav_check:checked~.mobile_navbar {
         display: block;
