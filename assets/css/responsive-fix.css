@@ -1,3 +1,369 @@
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    /* Root Start */
+    :root {
+        --site-container: 465px;
+    }
+    .section-title {
+        font-family: 'Lato', sans-serif;
+        color: var(--section-title-font-color) !important;
+        font-weight: bold;
+        font-size: 45px;
+        margin-left: 20px;
+        margin-top: 9px;
+    }
+    .labayk-col {
+        position: relative;
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 55px;
+        margin-top: -31px;
+    }
+    /* Root End */
+    /* Header Section */
+    .desktop-view {
+        display: none;
+    }
+    .site-id {
+        display: none;
+    }
+    .mobile_nav {
+        display: block;
+        position: relative;
+    }
+    .mobile_nav_site-logo img {
+        width: 145px;
+    }
+    .mobile_nav .row {
+        margin-right: 0;
+    }
+    .mobile_nav_menu ul {
+        margin: 0;
+    }
+    .mobile_nav_menu ul li {
+        display: inline-block;
+    }
+    .mobile_nav_menu ul li a img {
+        width: 40px;
+        height: 40px;
+        margin: 0px 3px;
+    }
+    .mobile_nav_menu ul li label img {
+        width: 40px;
+        height: 40px;
+        margin: 0px 3px;
+    }
+    .mobile_nav_Logo {
+        float: left;
+    }
+    .mobile_nav_menu {
+        float: right;
+    }
+    #mobile_nav_check {
+        display: none;
+    }
+    .mobile_navBar {
+        display: block;
+        position: absolute;
+        width: 100%;
+        margin: auto;
+        left: 0;
+    }
+    .mobile_navBar ul {
+        margin: 0;
+    }
+    .mobile_navBar ul li {
+        display: block;
+        text-align: center;
+        height: 40px;
+        line-height: 40px;
+    }
+    .mobile_navBar {
+        display: none;
+        position: absolute;
+        width: 100%;
+        margin: auto;
+        left: 0;
+        top: 80px;
+        background: #26705E;
+        z-index: 999;
+        padding: 10px 0px;
+        /* transition: var(--all-transitions); */
+    }
+    #mobile_nav_check:checked~.mobile_navbar {
+        display: block;
+        left: 0;
+        opacity: 1;
+    }
+    .mobile_navBar ul li a {
+        color: #fff;
+        font-family: 'Lato', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .mobile-nav-social ul {
+        margin: 0;
+    }
+    .mobile-nav-social ul li {
+        display: inline-block;
+        width: 30px;
+    }
+    .MobileUserLogin {
+        height: 50px;
+        display: block;
+        line-height: 50px;
+        background: #FFE28C;
+        text-align: center;
+        margin-bottom: -10px;
+        margin-top: 35px;
+    }
+    .mobileUserAccount {
+        color: #1F2F4B;
+        font-family: 'Lato', sans-serif;
+        font-size: 20px;
+        display: inline-block;
+        margin-top: 2px;
+    }
+    
+    /* Banner Section Start */
+    .banner_main {
+        height: 185px;
+    }
+    .banner-content::before {
+        position: absolute;
+        content: url(../images/reviews.svg);
+        top: 0px;
+        left: 1px;
+        display: none;
+    }
+    .banner-content::after {
+        position: absolute;
+        content: var(--halal-logo);
+        top: 8px;
+        right: 0px;
+    }
+    .bnr-halalcertification {
+        width: 430px;
+        height: 657px;
+        background: #26705E;
+        padding: 60px;
+        /* position: absolute; */
+        z-index: 1;
+        position: relative;
+        margin-left: 17px;
+        margin-top: 190px;
+    }
+    .bnr-halalcertification::before {
+        position: absolute;
+        content: '';
+        width: 408px;
+        height: 635px;
+        border: 1px solid white;
+        top: 10px;
+        left: 10px;
+        z-index: -1;
+    }
+    .bnr-halalcertification h2 {
+        font-size: 25px;
+        color: #fff;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        margin-left: -15px;
+        margin-top: -10px;
+    }
+    .bnr-halalcertification p {
+        font-size: 18px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        color: #fff;
+        margin-top: 15px;
+        margin-left: -16px;
+        line-height: 28px;
+    }
+    .bnr-hala-crt-btn {
+        display: block;
+        width: 345px;
+        height: 50px;
+        background: #FFE28C;
+        text-align: center;
+        line-height: 50px;
+        font-size: 15px;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        color: #1F2F4B;
+        margin-top: 22px;
+        z-index: 1;
+        margin-left: -18px;
+    }
+    .bnr-productdeliver {
+        width: 432px;
+        height: 360px;
+        background: #1F2F4B;
+        padding: 55px;
+        /* position: absolute; */
+        z-index: 1;
+        position: relative;
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+    .bnr-productdeliver::before {
+        position: absolute;
+        content: '';
+        width: 412px;
+        height: 340px;
+        top: 10px;
+        left: 10px;
+        border: 1px solid #fff;
+        z-index: -1;
+    }
+    .bnr-productdeliver h2 {
+        color: #fff;
+        font-size: 30px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        margin-left: 21px;
+    }
+    .bnr-productdeliver p {
+        font-size: 18px;
+        font-family: 'Lato', sans-serif;
+        color: #fff;
+        font-weight: 400;
+        margin-left: 22px;
+        margin-top: 18px;
+    }
+    .latestRecipies_title {
+        font-family: 'Lato', sans-serif;
+        color: var(--section-title-font-color) !important;
+        font-weight: bold;
+        font-size: 40px;
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+    .ProductsSlideArrow {
+        position: absolute;
+        top: 300px;
+        z-index: 99;
+        width: 80px;
+        transition: var(--all-transitions);
+    }
+    .ProductsSlideLeftarrow {
+        right: 379px;
+    }
+    .ProductsSlideRightarrow {
+        right: 8px;
+    }
+    .newsletter-main {
+        display: none;
+    }
+    /* Footer Section Start */
+    .footer-category, .footer-news, .footer-recipe {
+        display: none;
+    }
+    .payment-methods ul li {
+        width: 40px;
+    }
+    .footerCompanyLegalInformation {
+        height: max-content;
+    }
+    .footerPolicy ul li {
+        display: block;
+        text-align: left;
+    }
+    .footerCompanyLegalInformation .containerDisbale .row,
+    .footerPaymentMethods .containerDisbale .row {
+        margin-right: 0;
+    }
+    /* About Page Start */
+    .aboutBanner {
+        height: 227px;
+        background: var(--about-banner);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+    }
+    .aboutBanner::before {
+        position: absolute;
+        content: var(--review-rate);
+        top: 0px;
+        left: 5px;
+    }
+    .aboutBanner::after {
+        position: absolute;
+        content: var(--halal-logo);
+        bottom: 0px;
+        right: 5px;
+    }
+    .whatisHalalRow {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    a.whatIsHalal-btn {
+        display: block;
+        width: 445px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        background: #FFE28C;
+        color: #1F2F4B;
+        font-weight: bold;
+        font-size: 17px;
+        margin-left: 11px;
+        margin-top: 23px;
+    }
+    .whatisHalaldetails h2 {
+        margin-top: 35px;
+        color: #fff;
+        font-size: 34px;
+        margin-left: 10px;
+    }
+    a.aboutVideoPlayback {
+        display: block;
+        margin: auto;
+        text-align: center;
+        width: 465px;
+        height: 320px;
+        line-height: 320px;
+        background: var(--about-videoPlay-bg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 65px;
+        margin-left: 0px;
+    }
+    .labaykAboutVideo-Col, .labaykAboutDetail-Col {
+        display: block;
+        width: 100%;
+    }
+    .labaykAboutDetail {
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+    .whatisHalalWomen_image img {
+        margin-left: 6px;
+        margin-top: 89px;
+    }
+    .whatisHalal-col {
+        display: block;
+        width: 100%;
+    }
+    .whatIsHalal-main {
+        background: #1F2F4B;
+        margin-top: 74px;
+        height: fit-content;
+        margin-bottom: 50px;
+    }
+    /* About Page End */
+}
+
+
+
 @media screen and (min-width: 320px) and (max-width:576px) {
     /* Root Start */
     :root {
@@ -353,4 +719,44 @@
         margin-bottom: 50px;
     }
     /* About Page End */
+}
+
+
+
+
+/* ----------- Laptop ----------- */
+
+/* min-width 1024px and max-width 1440px, use when QAing large screen-only issues */
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+    /* Root CSS Start */
+    :root {
+        --site-container: 1000px;
+    }
+    /* File Import */
+    @import url(../style.css);
+    /* Root CSS End */
+    .banner_main {
+        background: url(../images/banner.jpg);
+        -webkit-background: url(../images/banner.jpg);
+        height: 700px;
+        background-size: cover;
+    }
+    .banner-content::after {
+        position: absolute;
+        content: url(../images/halal-logo.png);
+        top: 450px;
+        right: 0px;
+    }
+
+    /* about Page Start */
+    .aboutBanner {
+        height: 488px;
+        background: var(--about-banner);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+    }
+    /* about Page End */
+
 }
